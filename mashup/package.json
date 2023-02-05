@@ -1,0 +1,21 @@
+{
+  "name": "mashup",
+  "version": "1.0.0",
+  "description": "Node project with linting errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node_modules/.bin/eslint . --ext .js "
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [],
+  "author": "Jujhar@jujhar.com",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-semistandard": "^17.0.0"
+  }
+}
