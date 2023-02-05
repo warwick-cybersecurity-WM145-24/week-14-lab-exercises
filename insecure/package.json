@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "security": "snyk test"
+  },
+  "engines": {
+    "node": ">=16"
   },
   "author": "Jujhar@jujhar.com",
   "license": "MIT",
