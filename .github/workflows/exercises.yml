@@ -7,6 +7,7 @@ jobs:
     steps:
       - name: listing
         uses: actions/checkout@v3
+      - run: npm install ${{ github.workspace }}/insecure
       - run: npm audit ${{ github.workspace }}/insecure/index.js
       
 
