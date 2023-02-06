@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: ls ${{github.workspace}}/insecure/index.js
-      - run: ls ${{github.workspace/insecure/index.js}}
+    - run: ls ${{github.workspace}}
       - run: npm audit ${{github.workspace}}/insecure/index.js
       
  
