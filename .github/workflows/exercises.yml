@@ -1,0 +1,17 @@
+name: exercises
+run-name: bm is testing rn
+on: [push]
+jobs:
+  doing-some-exercises:
+    runs-on: ubuntu-latest
+    steps:
+      - name: listing
+        uses: actions/checkout@v3
+      - run: npm install ${{ github.workspace }}/insecure
+      - run: npm audit ${{ github.workspace }}/insecure/index.js
+      - run: npm run lint ${{ github.workspace }}/insecure/index.js
+      
+
+      
+ 
+    
