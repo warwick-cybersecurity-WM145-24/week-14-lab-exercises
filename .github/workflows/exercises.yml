@@ -5,7 +5,10 @@ jobs:
   doing-some-exercises:
     runs-on: ubuntu-latest
     steps:
-      - run: ls ${{github.workspace}}
+      - name: listing
+        uses: actions/checkout@v3
+      - run: ls ${{ github.workspace }}
+      
 
       
  
