@@ -1,0 +1,11 @@
+name: exercises
+run-name: bm is testing rn
+on: [push]
+jobs:
+  doing-some-exercises:
+    runs-on: ubuntu-latest
+    steps:
+      - run: npm audit 
+      - run: npm run lint
+ 
+    
