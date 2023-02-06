@@ -5,7 +5,8 @@ jobs:
   doing-some-exercises:
     runs-on: ubuntu-latest
     steps:
-      - run: npm audit 
-      - run: npm run lint
+      - run: ls
+      - run: npm audit insecure/index.js
+      
  
     
