@@ -35,6 +35,8 @@ hello greeting depending on the language you pass in the url
 
 ## Session 15 todo
 
+![target AWS arch](session-15-aws-targer-arch.png)
+
 ### Objective get networking and CI working
 
 - [ ] Create VPC: `10.0.0.0/22`
@@ -57,5 +59,3 @@ hello greeting depending on the language you pass in the url
 - [ ] Create Network load balancer (NLB)
 - [ ] Connect load balancer to instance
 - [ ] Deploy application to private instance
-
-![target AWS arch](session-15-aws-targer-arch.png)
