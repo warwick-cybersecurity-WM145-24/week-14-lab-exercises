@@ -1,0 +1,14 @@
+name: Check Insecure Modules
+run-name: ${{ github.actor }} is DESTROYING insecure modules fr
+on: [push]
+jobs:
+  check-insecure-modules:
+    runs-on: ubuntu-latest
+    env:
+      WORKING-DIRECTORY: ./insecure
+    steps:
+      - name: Installs the node modules.
+      - run: "cd ${{ WORKING-DIRECTORY }} && npm install"
+      - name: Audits for vulnererilities fr
+      - run: "cd ${{ WORKING-DIRECTORY }} && npm audit"
+
