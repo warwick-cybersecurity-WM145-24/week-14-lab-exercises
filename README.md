@@ -35,17 +35,27 @@ hello greeting depending on the language you pass in the url
 
 ## Session 15 todo
 
-- [ ] Create VPC: 10.0.0.0/22
+### Objective get networking and CI working
+
+- [ ] Create VPC: `10.0.0.0/22`
 - [ ] Get Github actions to deploy your IaC
 
 - [ ] Create Pub subnets:
-  [ ]   - A: 10.0.0.0/24
-  [ ]   - B: 10.0.1.0/24
+  - [ ] a: `10.0.0.0/24`
+  - [ ] b: `10.0.1.0/24`
 - [ ] Create Pvt Subnets:
-  [ ]   - A: 10.0.2.0/24
+  - [ ] a: `10.0.2.0/24`
 - [ ] Create IGW
 - [ ] Create Public Route Tables
 - [ ] Create NAT gateway
 - [ ] Create Private Route Table
+
+### Objective create secondary infra
+
+- [ ] Clickops a `t3.micro` instance in a public subnet with port 22 open and ssh in
+- [ ] Delete that instance and script a `t3.micro` instance into the private subnet
+- [ ] Create Network load balancer (NLB)
+- [ ] Connect load balancer to instance
+- [ ] Deploy application to private instance
 
 ![target AWS arch](session-15-aws-targer-arch.png)
