@@ -47,3 +47,5 @@ hello greeting depending on the language you pass in the url
 - [ ] Create Public Route Tables
 - [ ] Create NAT gateway
 - [ ] Create Private Route Table
+
+![target AWS arch](session-15-aws-targer-arch.png)
