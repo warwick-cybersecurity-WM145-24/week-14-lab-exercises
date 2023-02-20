@@ -59,3 +59,6 @@ hello greeting depending on the language you pass in the url
 - [ ] Create Network load balancer (NLB)
 - [ ] Connect load balancer to instance
 - [ ] Deploy application to private instance
+
+
+![Stick your secrets here](stick-secrets-here.png)
